@@ -16,7 +16,6 @@ minigrid==3.0.0
 miniworld==2.0.0
 mpi4py 
 mujoco==2.3.3
--e git+https://github.com/openai/mujoco-py@a13903b82f1ab316815e63b3575526005b3b2ae1#egg=mujoco_py
 numpy==1.22.4
 opencv-python==4.10.0.84
 p5py==1.0.0
