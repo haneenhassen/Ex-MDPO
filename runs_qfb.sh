@@ -1,9 +1,8 @@
 #!/bin/bash
 export CUDA_VISIBLE_DEVICES=0
 batch=128
-model='TRPO'
 timesteps=10000
-for num in 41 #42 43 
+for num in 41 42 43 
 do
 MIN=0
 MAX=$num
