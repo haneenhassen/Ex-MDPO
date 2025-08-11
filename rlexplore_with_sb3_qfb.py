@@ -132,7 +132,6 @@ def main():
     parser.add_argument("--timesteps", type=int, default=int(1e7), help="",)
     parser.add_argument("--batchsize", type=int, default=int(32), help="",)
     parser.add_argument("--env", type=str, default="QEB", help="",)
-    parser.add_argument("--model", type=str, default="MDPO", help="",)
     
     args = parser.parse_args()
     device = 'cuda'
@@ -141,7 +140,6 @@ def main():
     random_seed = args.seed #42
     batch = args.batchsize
     episode = 1
-    model = args.model
     total_timesteps = args.timesteps
     save_dir = f'./logs_f/QEB_envs/MDPO/{random_seed}/'
 
