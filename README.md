@@ -21,7 +21,7 @@ All dependencies are provided in a python virtual-env `requirements.txt` file. M
     ```bash
     pip3 install stable-baselines3==2.4.1
     pip3 install gymnasium[atari]==0.29.1
-    pip3 install grid2op
+    pip3 install grid2op>=1.6.4
     git clone https://github.com/leandergrech/qfb_env.git
     pip3 install -e .
     git clone https://github.com/RLE-Foundation/rllte.git
