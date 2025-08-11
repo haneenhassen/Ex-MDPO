@@ -20,7 +20,6 @@ from stable_baselines3.common.vec_env import DummyVecEnv, SubprocVecEnv, VecMoni
 import time
 #from vizdoom import gymnasium_wrapper
 from rllte.env.utils import FrameStack
-from rllte.env import make_rllte_env, make_minigrid_env #, make_dmc_env, make_mario_env, make_atari_env, make_box_env
 from rllte.xplore.reward import Fabric, NGU, E3B, RE3
 
 class ThreeMax(Fabric):
