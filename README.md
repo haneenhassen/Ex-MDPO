@@ -13,6 +13,7 @@ All dependencies are provided in a python virtual-env `requirements.txt` file. M
     ```bash
     python3 -m venv my_env  #python>=3.8
     source <virtual env path>/my_env/bin/activate
+    pip3 install -r requirement.txt
     ```
 
 2. Install stable-baselines3, rllte, gymnasium, Grid2Op and QFB
