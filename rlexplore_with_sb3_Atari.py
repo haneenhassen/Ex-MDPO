@@ -5,7 +5,7 @@ from stable_baselines3.common.callbacks import BaseCallback
 from stable_baselines3.common.env_util import make_vec_env, make_atari_env #, make_atari_env_sb
 #from rllte.env import make_atari_env, make_atari_env_sb
 #from stable_baselines3 import MDPO
-from stable_baselines3 import MDPO1 as MDPO
+from stable_baselines3 import MDPO
 from stable_baselines3.common.evaluation import evaluate_policy
 import torch as th
 from torch.cuda.amp import autocast
