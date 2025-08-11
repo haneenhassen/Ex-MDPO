@@ -30,13 +30,13 @@ All dependencies are provided in a python virtual-env `requirements.txt` file. M
 
 3. Download and copy MuJoCo library and license files into a `.mujoco/` directory. We use `mujoco200` for this project.
 
-    '''bash
+    ---bash
      git clone https://github.com/openai/mujoco-py
      cd mujoco-py
      pip install -r requirements.txt
      pip install -r requirements.dev.txt
      pip install -e . --no-cache
-    '''
+    ---
 
 4. Clone MDPO and copy the `mdpo` directories inside (https://github.com/DLR-RM/stable-baselines3/tree/master/stable_baselines3).
 
