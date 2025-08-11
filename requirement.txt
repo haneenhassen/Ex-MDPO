@@ -3,7 +3,6 @@ ale-py==0.8.1
 atari-py==0.2.9
 AutoROM==0.4.2
 AutoROM.accept-rom-license==0.6.1
-glfw==2.8.0
 Grid2Op==1.10.5
 gymnasium==0.29.1
 gymnasium-robotics==1.2.4
@@ -12,8 +11,6 @@ imageio==2.35.1
 imageio-ffmpeg==0.5.1
 jupyter==1.1.1
 matplotlib==3.6.0
-minigrid==3.0.0
-miniworld==2.0.0
 mpi4py 
 mujoco==2.3.3
 numpy==1.22.4
